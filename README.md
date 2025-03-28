@@ -1,12 +1,23 @@
-# React + Vite
+# Matrix Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based 3x3 matrix game where users can click on boxes to change their colors. Once all boxes have been clicked, they change to orange in the order they were clicked.
 
-Currently, two official plugins are available:
+## Demo
+[Live link](https://matrix-game-edxso.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- 🟩 Click on a box to turn it **green**.
+- 🟧 The last clicked box triggers all boxes to turn **orange** sequentially.
+- 🎉 An alert appears when all boxes have turned orange.
 
-## Expanding the ESLint configuration
+## 🚀 Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/GanpatHada/edxso_assignment.git
+
+2. **Run Project**
+   ```sh
+   cd edxso_assignment
+   npm i
+   npm run dev
